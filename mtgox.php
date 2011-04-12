@@ -48,6 +48,24 @@ class mtgox_order extends mtgox_base
 	}
 
 	/**
+	 * Is this a sell order?
+	 * @return bool
+	 */
+	public function is_sell_order ()
+	{
+		return $this->data['type'] === self::SELL_ORDER;
+	}
+
+	/**
+	 * Is this a buy order?
+	 * @return bool
+	 */
+	public function is_buy_order ()
+	{
+		return $this->data['type'] === self::BUY_ORDER;
+	}
+
+	/**
 	 * Cancel the order over the API
 	 * @return bool true on success
 	 */
