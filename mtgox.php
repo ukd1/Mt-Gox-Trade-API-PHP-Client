@@ -333,8 +333,6 @@ abstract class mtgox_base
 		$tmp['result'] = $result;
 		curl_close ($ch);
 
-		print_r($tmp);
-
 		return $tmp;
 	}
 	
