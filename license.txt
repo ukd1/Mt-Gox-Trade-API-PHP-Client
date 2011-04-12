@@ -1,4 +1,4 @@
-Copyright (c) 2010, UKD1 Limited <hello@ukd1.co.uk>
+Copyright (c) 2011, UKD1 Limited <hello@ukd1.co.uk>
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
