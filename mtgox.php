@@ -224,7 +224,7 @@ abstract class mtgox_base
 	/**
 	 * Mt Gox endpoint for the API
 	 */
-	const ENDPOINT = 'http://www.mtgox.com/code/';
+	const ENDPOINT = 'https://www.mtgox.com/code/';
 
 	/**
 	 * A timeout to control how long to wait for the API to respond in seconds
